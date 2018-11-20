@@ -108,13 +108,11 @@
                   facesHeight = "120%";
                   fourthImgTwoTop = "130%";
 		      
-		if (mainVideo.paused) {
-				mainVideo.play();
-			    }
+		
                  
               }
               if (numOfClicks == 0){
-                  
+                document.getElementById("mainVideo").play(); 
                 
                 document.getElementById("introImgID").style.width="0px";
                 document.getElementById("introImgID").style.height="0px" ;
@@ -124,6 +122,12 @@
 		document.getElementById("introImgID").style.position="relative";
 		document.getElementById("introText").style.position="relative";
               }
+		  if (numOfClicks == 1){
+		  if (mainVideo.paused) {
+				mainVideo.play();
+			    }
+		  }
+		  
                  if (numOfClicks == 2){
 			 
 			 
