@@ -107,11 +107,15 @@
                   thirdHeight = "145%";
                   facesHeight = "120%";
                   fourthImgTwoTop = "130%";
+		      
+		if (mainVideo.paused) {
+				mainVideo.play();
+			    }
                  
               }
               if (numOfClicks == 0){
                   
-                document.getElementById("mainVideo").play();
+                
                 document.getElementById("introImgID").style.width="0px";
                 document.getElementById("introImgID").style.height="0px" ;
                 document.getElementById("introText").style.width="0px";
@@ -123,9 +127,7 @@
                  if (numOfClicks == 2){
 			 
 			 
-			    if (mainVideo.paused) {
-				mainVideo.play();
-			    }
+			    
 			
 				
                      
