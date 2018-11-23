@@ -51,15 +51,12 @@ src: url(/impact.ttf);
       } 
         
         .container {
-            
-    font-family:'Anton', sans-serif;
     margin-left: auto;
-    margin-right: auto;
+    margin-right:auto;
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 0;
-            
-    font-size: 620%
+    margin-top: 0%;
+    margin-bottom: 2%;
+  
     
         }
         
@@ -83,7 +80,6 @@ src: url(/impact.ttf);
     margin-left: auto;
     margin-right: auto;
     font-family: "Courier New", Courier, monospace;
-   
     padding-top: 10px;
     padding-left: 40px;
     padding-right: 40px;
